@@ -69,7 +69,7 @@ def create_choropleth_map(company):
     return fig
 
 app = dash.Dash(__name__)
-serever= app.server
+server= app.server
 app.layout = html.Div([
     html.H1('Customer Disputes Dashboard'),
     html.Div([
