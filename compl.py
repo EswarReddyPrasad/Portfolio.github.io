@@ -1,3 +1,5 @@
+pip install --upgrade flask
+pip install --upgrade dash
 import pandas as pd
 import plotly.graph_objs as go
 import dash
