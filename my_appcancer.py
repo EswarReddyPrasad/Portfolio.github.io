@@ -18,7 +18,7 @@ data = pd.read_csv('data_cancer.csv')
 
 # Define the app
 app = dash.Dash(__name__, external_stylesheets=['https://codepen.io/chriddyp/pen/bWLwgP.css'])
-
+server=app.server
 # Define the app layout
 app.layout = html.Div([
     html.H1('Breast Cancer Data Explorer', style={'text-align': 'center', 'color': 'white'}),
